@@ -5,8 +5,8 @@
  * 2. APIから取得したユーザー情報が正しく画面に表示される
  */
 
-import { useState } from "react";
-import axios from "axios";
+import { useState } from 'react';
+import axios from 'axios';
 
 interface User {
   id: number;
@@ -14,7 +14,7 @@ interface User {
 }
 
 export const UserSearch = () => {
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState('');
   const [user, setUser] = useState<User | null>(null);
 
   const search = async () => {
