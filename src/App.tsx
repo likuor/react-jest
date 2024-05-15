@@ -1,4 +1,5 @@
-import Button from './components/Button';
+// import Button from './components/Button';
+import Counter from './components/Counter';
 // import AsyncComponent from './components/AsyncComponent';
 // import { UserSearch } from './components/UserSearch';
 // import Form from './components/Form';
@@ -6,7 +7,8 @@ import Button from './components/Button';
 function App() {
   return (
     <>
-      <Button label='button' onClick={() => alert('click')} primary={true} />
+      <Counter />
+      {/* <Button label='button' onClick={() => alert('click')} primary={true} /> */}
       {/* <Form /> */}
       {/* <AsyncComponent /> */}
       {/* <UserSearch /> */}

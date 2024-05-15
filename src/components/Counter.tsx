@@ -7,7 +7,7 @@
  *    差分が正しく検出されることを確認してください
  */
 
-import { useState } from "react";
+import { useState } from 'react';
 
 interface CounterProps {
   initialCount?: number;
@@ -24,6 +24,7 @@ const Counter: React.FC<CounterProps> = ({ initialCount = 0 }) => {
       <h2>Count: {count}</h2>
       <button onClick={decrement}>ー</button>
       <button onClick={increment}>＋</button>
+      <button>reset</button>
     </div>
   );
 };
